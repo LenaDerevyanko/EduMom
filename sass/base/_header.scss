@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+.Conteiner {
+
+    display: inline-flex;
+    padding: 34px 127px;
+    align-items: center;
+    gap: 156px;
+}
+.logo {
+    display: flex;
+}
+.logo-list {
+    display: flex;
+}
+.logo-item {
+    display: inline-flex;
+    align-items: center;
+}
+.logo-name {
+    display: flex;
+}
+.nav {
+    display: flex;
+}
+.nav-item {
+    list-style-type: none;
+    color: red;
+    margin-top: 49px;
+    margin-bottom: 49px;
+}
+.reg {
+    display: flex;
+}
+.reg-item {
+    list-style-type: none;
+}
