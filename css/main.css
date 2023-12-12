@@ -147,13 +147,31 @@ body {
   gap: 156px; }
 
 .logo {
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #002935; }
 
-.logo:hover {
-  color: red; }
+.header_icon {
+  fill: #0D5FF9; }
 
-.header_icon:hover {
-  fill: red; }
+.logo:hover .header_icon {
+  fill: orange; }
+
+.logo-name {
+  color: #002935;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 150%; }
+
+.logo-name1 {
+  color: #002935;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 150%; }
+
+.logo:hover .logo-name {
+  color: orange; }
 
 .logo-list {
   display: flex; }
@@ -165,22 +183,53 @@ body {
 .logo-name {
   display: flex; }
 
+.cours-butt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #ACB5C5; }
+
 .nav-list {
   display: flex;
   margin: 0;
   padding: 0; }
 
 .nav-item {
+  justify-content: center;
   list-style-type: none;
   color: red; }
 
 .nav-link {
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0D5FF9; }
+
+.nav-link:hover {
+  color: orange; }
+
+.nav-link:hover .nav_icon {
+  fill: orange; }
+
+.nav_icon {
+  fill: #0D5FF9; }
 
 .regist {
   display: flex; }
 
 .regist-item {
   list-style-type: none; }
+
+.reg_butt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #ACB5C5; }
+
+.reg_butt:hover {
+  background-color: #0D5FF9;
+  color: aliceblue; }
 
 /*# sourceMappingURL=main.css.map */
