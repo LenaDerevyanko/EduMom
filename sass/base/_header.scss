@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
 }
-.Conteiner {
 
+.container {
     display: inline-flex;
     padding: 34px 127px;
     align-items: center;
@@ -11,6 +11,15 @@
 }
 .logo {
     display: flex;
+}
+.logo:hover {
+    color: red;
+}
+.header_icon {
+}
+
+.header_icon:hover {
+    fill: red;
 }
 .logo-list {
     display: flex;
@@ -22,18 +31,21 @@
 .logo-name {
     display: flex;
 }
-.nav {
+.nav-list {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 .nav-item {
     list-style-type: none;
     color: red;
-    margin-top: 49px;
-    margin-bottom: 49px;
 }
-.reg {
+.nav-link {
     display: flex;
 }
-.reg-item {
+.regist {
+    display: flex;
+}
+.regist-item {
     list-style-type: none;
 }

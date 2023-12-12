@@ -140,7 +140,7 @@ body {
   display: flex;
   justify-content: center; }
 
-.Conteiner {
+.container {
   display: inline-flex;
   padding: 34px 127px;
   align-items: center;
@@ -148,6 +148,12 @@ body {
 
 .logo {
   display: flex; }
+
+.logo:hover {
+  color: red; }
+
+.header_icon:hover {
+  fill: red; }
 
 .logo-list {
   display: flex; }
@@ -159,19 +165,22 @@ body {
 .logo-name {
   display: flex; }
 
-.nav {
-  display: flex; }
+.nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0; }
 
 .nav-item {
   list-style-type: none;
-  color: red;
-  margin-top: 49px;
-  margin-bottom: 49px; }
+  color: red; }
 
-.reg {
+.nav-link {
   display: flex; }
 
-.reg-item {
+.regist {
+  display: flex; }
+
+.regist-item {
   list-style-type: none; }
 
 /*# sourceMappingURL=main.css.map */
