@@ -1,14 +1,13 @@
 .header {
+    max-width: 1920px;
     display: flex;
     justify-content: center;
-}
-.container {
-    display: inline-flex;
     padding: 34px 127px;
     align-items: center;
     gap: 156px;
+    margin: auto;
 }
-.logo {
+.header__logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,15 +15,17 @@
 }
 .header_icon {
     fill: #0D5FF9;
+    margin-right: 10px;
 }
-.logo:hover .header_icon{
-    fill: orange;
-}
+// .logo:hover .header_icon{
+//     fill: 0D5FF9;
+// }
 .logo-name {
     color: #002935;
     font-size: 28px;
     font-weight: 600;
     line-height: 150%;
+
 }
 .logo-name1 {
     color: #002935;
@@ -32,9 +33,9 @@
     font-weight: 700;
     line-height: 150%;
 }
-.logo:hover .logo-name{
-    color: orange;
-}
+// .logo:hover .logo-name{
+//     color: #0D5FF9;
+// }
 .logo-list {
     display: flex;
 }
@@ -47,48 +48,85 @@
 }
 .cours-butt {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 260px;
+    height: 60px;
+    background: #FFF;
     border-radius: 4px;
     border: 1px solid #ACB5C5;
+    padding: 0 38px 0 23px;
+}
+.cours-butt:hover {
+    border: 1px solid rgba(13, 95, 249, 0.94);
+}
+.cours-butt:hover .cours_icon{
+    fill: #0D5FF9;
 }
 .nav-list {
     display: flex;
     margin: 0;
     padding: 0;
+    gap: 30px;
 }
 .nav-item {
     justify-content: center;
     list-style-type: none;
-    color: red;
+    // margin-right: 30px;
 }
+// .nav-item:last-child {
+//     margin-right: 0;
+// }
 .nav-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #0D5FF9;
+    color: #10243C;
 }
 .nav-link:hover {
-    color: orange;
+    color: #0D5FF9;
 }
 .nav-link:hover .nav_icon {
-    fill: orange;
+    fill: #0D5FF9;
 }
 .nav_icon {
-    fill: #0D5FF9;
+    fill: #10243C;
 }
 .regist {
     display: flex;
+    align-items: center;
 }
-.regist-item {
-    list-style-type: none;
+.reg_icon1 {
+    fill: #222222;
+    margin-right: 18px;
+}
+.reg_icon2 {
+    fill: #222222;
+    margin-right: 33px;
+}
+.reg_icon1:hover {
+    fill: #0D5FF9;
+}
+.reg_icon2:hover {
+    fill: #0D5FF9;
 }
 .reg_butt {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 4px;
+    width: 158px;
+    height: 55px;
+    background: #FFF;
+    border-radius: 5px;
     border: 1px solid #ACB5C5;
+    color: #222;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    padding: 0;
 }
 .reg_butt:hover {
     background-color: #0D5FF9;

@@ -137,26 +137,23 @@ body {
   font-style: normal; }
 
 .header {
+  max-width: 1920px;
   display: flex;
-  justify-content: center; }
-
-.container {
-  display: inline-flex;
+  justify-content: center;
   padding: 34px 127px;
   align-items: center;
-  gap: 156px; }
+  gap: 156px;
+  margin: auto; }
 
-.logo {
+.header__logo {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #002935; }
 
 .header_icon {
-  fill: #0D5FF9; }
-
-.logo:hover .header_icon {
-  fill: orange; }
+  fill: #0D5FF9;
+  margin-right: 10px; }
 
 .logo-name {
   color: #002935;
@@ -170,9 +167,6 @@ body {
   font-weight: 700;
   line-height: 150%; }
 
-.logo:hover .logo-name {
-  color: orange; }
-
 .logo-list {
   display: flex; }
 
@@ -185,51 +179,167 @@ body {
 
 .cours-butt {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 260px;
+  height: 60px;
+  background: #FFF;
   border-radius: 4px;
-  border: 1px solid #ACB5C5; }
+  border: 1px solid #ACB5C5;
+  padding: 0 38px 0 23px; }
+
+.cours-butt:hover {
+  border: 1px solid rgba(13, 95, 249, 0.94); }
+
+.cours-butt:hover .cours_icon {
+  fill: #0D5FF9; }
 
 .nav-list {
   display: flex;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  gap: 30px; }
 
 .nav-item {
   justify-content: center;
-  list-style-type: none;
-  color: red; }
+  list-style-type: none; }
 
 .nav-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #0D5FF9; }
+  color: #10243C; }
 
 .nav-link:hover {
-  color: orange; }
+  color: #0D5FF9; }
 
 .nav-link:hover .nav_icon {
-  fill: orange; }
-
-.nav_icon {
   fill: #0D5FF9; }
 
-.regist {
-  display: flex; }
+.nav_icon {
+  fill: #10243C; }
 
-.regist-item {
-  list-style-type: none; }
+.regist {
+  display: flex;
+  align-items: center; }
+
+.reg_icon1 {
+  fill: #222222;
+  margin-right: 18px; }
+
+.reg_icon2 {
+  fill: #222222;
+  margin-right: 33px; }
+
+.reg_icon1:hover {
+  fill: #0D5FF9; }
+
+.reg_icon2:hover {
+  fill: #0D5FF9; }
 
 .reg_butt {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 4px;
-  border: 1px solid #ACB5C5; }
+  width: 158px;
+  height: 55px;
+  background: #FFF;
+  border-radius: 5px;
+  border: 1px solid #ACB5C5;
+  color: #222;
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  padding: 0; }
 
 .reg_butt:hover {
   background-color: #0D5FF9;
   color: aliceblue; }
+
+.hero {
+  background-color: #002935;
+  max-width: 1920px;
+  height: 916px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(/images/book.svg);
+  background-repeat: no-repeat;
+  background-size: 101px 85px;
+  background-position: top 554px left 217px; }
+
+.bg-image {
+  background-color: #002935;
+  background-image: url("/images/heroimg-min.jpg");
+  border-radius: 0px 348px 0px 273px;
+  background-repeat: no-repeat;
+  width: 696px;
+  height: 916px;
+  background-size: cover; }
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 221px;
+  padding-left: 395px; }
+
+.hero-h1 {
+  color: var(--Primary, #0D5FF9);
+  font-family: Urbanist;
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 129%; }
+
+.hero-h {
+  color: #FFF;
+  font-family: Urbanist;
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 129%;
+  margin-bottom: 30px; }
+
+.hero-h2 {
+  margin-bottom: 30px;
+  color: #FFF;
+  font-family: Urbanist;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  /* 32.5px */
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.hero-text {
+  color: var(--White, #FFF);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 174%;
+  margin-bottom: 50px; }
+
+.hero-btn {
+  width: 173px;
+  height: 55px;
+  color: #FFF;
+  background: #002935;
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  border-radius: 5px;
+  border: 1px solid #FFF; }
+
+.btn-curs {
+  margin-right: 26px; }
 
 /*# sourceMappingURL=main.css.map */
