@@ -1,0 +1,49 @@
+.about {
+    width: 1920px;
+    margin: auto;
+    padding: 80px 0;
+}
+.about-container {
+    margin: auto;
+    width: 1200px;
+}
+.about-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 27px;
+}
+.about-item {
+    width: 258px;
+    border-radius: 8px;
+    border: 1px solid #F5F5F5;
+    background: #FFF;  
+    box-shadow: 0px 6px 26px 0px rgba(0, 0, 0, 0.04);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.about-icon-container {
+    width: 65px;
+    height: 65px;
+    background-color: rgba(229, 248, 248, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_icon {
+    fill: rgba(13, 95, 249, 1);
+
+}
+.about-text {
+    color: #444;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161%;
+}
