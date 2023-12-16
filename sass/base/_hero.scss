@@ -10,24 +10,22 @@
     background-repeat: no-repeat;
     background-size: 101px 85px;
     background-position: top 554px left 217px;
-
-}
-.bg-image {
+    &__bg-image {
     background-color: #002935;
-        background-image: url("/images/heroimg-min.jpg");
-        border-radius: 0px 348px 0px 273px;
-            background-repeat: no-repeat;
-            width: 696px;
-            height: 916px;
+    background-image: url("/images/heroimg-min.jpg");
+    border-radius: 0px 348px 0px 273px;
+    background-repeat: no-repeat;
+    width: 696px;
+    height: 916px;
     background-size: cover;
 }
-.hero-container {
+    &__container {
     display: flex;
     flex-direction: column;
     padding-top: 221px;
     padding-left: 395px;
 }
-.hero-h1 {
+    &__h1 {
     color: var(--Primary, #0D5FF9);
     font-family: Urbanist;
     font-size: 82px;
@@ -35,7 +33,7 @@
     font-weight: 700;
     line-height: 129%;
 }
-.hero-h {
+    &__h {
     color: #FFF;
         font-family: Urbanist;
         font-size: 82px;
@@ -44,7 +42,7 @@
         line-height: 129%;
         margin-bottom: 30px;
 }
-.hero-h2 {
+    &__h2 {
     margin-bottom: 30px;
     color: #FFF;
     
@@ -57,7 +55,7 @@
         letter-spacing: 2px;
         text-transform: uppercase;
 }
-.hero-text {
+    &__text {
     color: var(--White, #FFF);
         font-family: Urbanist;
         font-size: 18px;
@@ -66,21 +64,26 @@
         line-height: 174%;
         margin-bottom: 50px;
 }
-.hero-btn {
+    &__btn {
     width: 173px;
     height: 55px;
     color: #FFF;
     background: #002935;
-        text-align: center;
-        font-family: Urbanist;
-        font-size: 17px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 150%;
-        border-radius: 5px;
-            border: 1px solid #FFF;
-            
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    border-radius: 5px;
+    border: 1px solid #FFF;
 }
-.btn-curs {
+    &__btn:hover {
+    background: #0D5FF9;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid #0D5FF9;
+}
+}
+.btn__curs {
     margin-right: 26px;
 }

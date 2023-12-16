@@ -2,12 +2,12 @@
     width: 1920px;
     margin: auto;
     padding: 80px 0;
-}
-.about-container {
+    &__container {
     margin: auto;
     width: 1150px;
 }
-.about-feat {
+    &__feat {
+    margin-bottom: 3px;
     color: #0D5FF9;
     text-align: center;
     font-family: Urbanist;
@@ -16,7 +16,8 @@
     font-weight: 600;
     line-height: 150%;
 }
-.about-title {
+    &__title {
+    margin-bottom: 59px;
     color: #222;
     text-align: center;
     font-family: Urbanist;
@@ -25,26 +26,49 @@
     font-weight: 700;
     line-height: 150%;
 }
-.about-list {
+    &__list {
     margin: 0;
     padding: 0;
     display: flex;
     gap: 27px;
     justify-content: center;
 }
-.about-item {
+    &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    &__link:hover {
+    background-color: #0D5FF9;
+    color: #F5F5F5;
+    border-radius: 8px;
+    background: #0D5FF9;
+    box-shadow: 0px 6px 26px 0px rgba(0, 0, 0, 0.04);
+}
+    &__link:hover &__text{
+    color: #F5F5F5;
+}
+    &__link:hover &__icon-container {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+    &__link:hover &__icon {
+    fill: rgba(255, 255, 255, 1);
+}
+    &__link:hover &__description {
+    color: rgba(255, 255, 255, 1);
+}
+    &__item {
     width: 258px;
     border-radius: 8px;
     border: 1px solid #F5F5F5;
     background: #FFF;  
     box-shadow: 0px 6px 26px 0px rgba(0, 0, 0, 0.04);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
 }
-.about-icon-container {
+    &__icon-container:hover {
+    fill: rgba(0, 0, 0, 0.1);
+}
+    &__icon-container {
     width: 65px;
     height: 65px;
     background-color: rgba(229, 248, 248, 1);
@@ -53,12 +77,23 @@
     justify-content: center;
     align-items: center;
     margin-top: 42px;
+    margin-bottom: 29px;
 }
-.about_icon {
+    &__icon {
     fill: rgba(13, 95, 249, 1);
 
 }
-.about-text {
+    &__description {
+    color: #222;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin: 0;
+}
+    &__text {
     color: #444;
     text-align: center;
     font-family: Urbanist;
@@ -66,5 +101,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 161%;
+    margin-top: 10px;
     margin-bottom: 42px;
+}
 }

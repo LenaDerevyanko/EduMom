@@ -6,47 +6,54 @@
     align-items: center;
     gap: 156px;
     margin: auto;
-}
-.header__logo {
+    &__logo {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #002935;
 }
-.header_icon {
+    &__icon {
     fill: #0D5FF9;
     margin-right: 10px;
 }
-// .logo:hover .header_icon{
+// .logo:hover .header__icon{
 //     fill: 0D5FF9;
 // }
-.logo-name {
+}
+.logo {
+    &__name {
     color: #002935;
     font-size: 28px;
     font-weight: 600;
     line-height: 150%;
 
 }
-.logo-name1 {
+    &__name1 {
     color: #002935;
     font-size: 28px;
     font-weight: 700;
     line-height: 150%;
 }
-// .logo:hover .logo-name{
-//     color: #0D5FF9;
-// }
-.logo-list {
+    &__list {
     display: flex;
 }
-.logo-item {
+    &__item {
     display: inline-flex;
     align-items: center;
 }
-.logo-name {
+    &__name {
     display: flex;
 }
-.cours-butt {
+}
+.cours {
+    &__btn {
+    color: var(--Title, #10243C);
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,60 +64,69 @@
     border: 1px solid #ACB5C5;
     padding: 0 38px 0 23px;
 }
-.cours-butt:hover {
+    &__btn:hover {
     border: 1px solid rgba(13, 95, 249, 0.94);
 }
-.cours-butt:hover .cours_icon{
+    &__btn:hover &__icon{
     fill: #0D5FF9;
 }
-.nav-list {
+}
+.nav {
+    &__list {
     display: flex;
     margin: 0;
     padding: 0;
     gap: 30px;
 }
-.nav-item {
+    &__item {
+    color: var(--Title, #10243C);
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
     justify-content: center;
     list-style-type: none;
     // margin-right: 30px;
 }
-// .nav-item:last-child {
+// .nav__item:last-child {
 //     margin-right: 0;
 // }
-.nav-link {
+    &__link {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #10243C;
 }
-.nav-link:hover {
+    &__link:hover {
     color: #0D5FF9;
 }
-.nav-link:hover .nav_icon {
+    &__link:hover .nav__icon {
     fill: #0D5FF9;
 }
-.nav_icon {
+    &__icon {
     fill: #10243C;
+}
 }
 .regist {
     display: flex;
     align-items: center;
-}
-.reg_icon1 {
+    &__icon1 {
     fill: #222222;
     margin-right: 18px;
 }
-.reg_icon2 {
+    &__icon2 {
     fill: #222222;
     margin-right: 33px;
 }
-.reg_icon1:hover {
+    &__icon1:hover {
     fill: #0D5FF9;
 }
-.reg_icon2:hover {
+    &__icon2:hover {
     fill: #0D5FF9;
 }
-.reg_butt {
+    &__btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,7 +144,8 @@
     line-height: 150%;
     padding: 0;
 }
-.reg_butt:hover {
+    &__btn:hover {
     background-color: #0D5FF9;
     color: aliceblue;
+}
 }
