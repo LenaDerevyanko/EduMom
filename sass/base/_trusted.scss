@@ -1,0 +1,79 @@
+.trusted {
+    width: 1920px;
+    margin: auto;
+    
+    &__title {
+        overflow: hidden;
+// * Чтобы спрятать часть линий,
+//     которые ** будут вылазить за пределы блока *
+        text-align: center;
+// * Выравнивание заголовка по центру,
+//     ** можно использовать left,
+//     right *
+        padding-top: 52px;
+        padding-bottom: 52px;
+    }
+    &__title h3 {
+/* Стили тега обертки для заголовков 
+** в несколько строк */
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    &__title:before,
+    &__title:after {
+/* Обязательно указываем пустое свойство content, 
+** иначе псевдоэлементы не появятся на сайте */
+        content: "";
+/* Указываем что наши линии будут строчно-блочные и 
+** выравнивание по высоте - по центру */
+        display: inline-block;
+        vertical-align: middle;
+/* Задаем ширину 100% или ту которая надо, и выбираем высоту линии, 
+** в нашем примере она равна 1 пиксель */
+        width: 80px;
+        height: 1px;
+/* Добавляем цвет для линии */
+        background-color: #0D5FF9;
+/* Добавляем пседоэлемантам возможность изменить 
+** позицию линии, для создания отступов от текста */
+        position: relative;
+        }
+    
+        &__title:before {
+/* Смещаем левую линию на 100% влево, чтобы линия 
+** встала рядом с текстом слева */
+        margin-left: -100%;
+/* Указываем в пикселях отступ линии от текста заголовка */
+        left: -30px;
+        }
+    
+        &__title:after {
+/* Смещаем правую линию на 100% вправо, чтобы 
+** линия встала рядом с текстом справа */
+        margin-right: -100%;
+/* Указываем в пикселях отступ линии от текста заголовка */
+        right: -30px;
+        }
+
+    &__text {
+    color: rgba(34, 34, 34, 1);
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0;
+   }
+
+   &__text2 {
+    color: rgba(13, 95, 249, 1);
+    font-family: Urbanist;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0;
+}
+}

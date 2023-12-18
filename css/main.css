@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 ::before,
 ::after {
@@ -522,5 +523,65 @@ body {
     border-radius: 5px;
     background: #0D5FF9;
     color: white; }
+
+.trusted {
+  width: 1920px;
+  margin: auto; }
+  .trusted__title {
+    overflow: hidden;
+    text-align: center;
+    padding-top: 52px;
+    padding-bottom: 52px; }
+  .trusted__title h3 {
+    /* Стили тега обертки для заголовков 
+    ** в несколько строк */
+    display: inline-block;
+    vertical-align: middle; }
+  .trusted__title:before, .trusted__title:after {
+    /* Обязательно указываем пустое свойство content, 
+    ** иначе псевдоэлементы не появятся на сайте */
+    content: "";
+    /* Указываем что наши линии будут строчно-блочные и 
+    ** выравнивание по высоте - по центру */
+    display: inline-block;
+    vertical-align: middle;
+    /* Задаем ширину 100% или ту которая надо, и выбираем высоту линии, 
+    ** в нашем примере она равна 1 пиксель */
+    width: 80px;
+    height: 1px;
+    /* Добавляем цвет для линии */
+    background-color: #0D5FF9;
+    /* Добавляем пседоэлемантам возможность изменить 
+    ** позицию линии, для создания отступов от текста */
+    position: relative; }
+  .trusted__title:before {
+    /* Смещаем левую линию на 100% влево, чтобы линия 
+    ** встала рядом с текстом слева */
+    margin-left: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    left: -30px; }
+  .trusted__title:after {
+    /* Смещаем правую линию на 100% вправо, чтобы 
+    ** линия встала рядом с текстом справа */
+    margin-right: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    right: -30px; }
+  .trusted__text {
+    color: #222222;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0; }
+  .trusted__text2 {
+    color: #0d5ff9;
+    font-family: Urbanist;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0; }
 
 /*# sourceMappingURL=main.css.map */
