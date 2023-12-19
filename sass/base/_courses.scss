@@ -1,0 +1,46 @@
+.courses {
+    width: 1920px;
+    margin: auto;
+    padding: 56px 0;
+
+&__title {
+    color: #0D5FF9;
+    font-family: Urbanist;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+} 
+&__title2 {
+    color: #222;
+        font-family: Urbanist;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+}   
+
+// &__title-box {
+//     display: flex;
+// }
+&__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+&__list {
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+    margin: 0;
+    padding: 0;
+}
+
+&__item {
+
+}
+&__img {
+    object-fit: cover;
+    height: 100%;
+}
+}

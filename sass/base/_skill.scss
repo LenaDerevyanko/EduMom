@@ -4,11 +4,11 @@
     padding: 72px 400px 72px 977px;
     position: relative;
     background-image: 
-        url("/images/ball1.svg"), 
-        url("/images/angle1.svg"),
-        url("/images/angle2.svg"),
-        url("/images/ballsmall.svg"),
-        url("/images/ball2.svg");
+        url('../images/ball1.svg'), 
+        url('../images/angle1.svg'),
+        url('../images/angle2.svg'),
+        url('../images/ballsmall.svg'),
+        url('../images/ball2.svg');
     background-repeat: no-repeat;
     background-position:
         top 329px left 251px, 
@@ -17,12 +17,13 @@
         top 79px left 1657px,
         top 411px left 1753px;
 
+
     &__img1 {
     position: absolute;
     z-index: 2;
     top: 114px;
     left: 396px;
-    background-image: url("/images/onemen.jpg");
+    background-image: url('../images/onemen.jpg');
     background-repeat: no-repeat;
     width: 311px;
     height: 317px;
@@ -35,7 +36,7 @@
     z-index: 1;
     top: 250px;
     left: 634px;
-    background-image: url("/images/company.jpg");
+    background-image: url('../images/company.jpg');
     background-repeat: no-repeat;
     width: 311px;
     height: 317px;

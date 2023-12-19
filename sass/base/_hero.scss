@@ -6,13 +6,13 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    background-image: url(/images/book.svg);
+    background-image: url('../images/book.svg');
     background-repeat: no-repeat;
     background-size: 101px 85px;
     background-position: top 554px left 217px;
     &__bg-image {
     background-color: #002935;
-    background-image: url("/images/heroimg-min.jpg");
+    background-image: url('../images/heroimg-min.jpg');
     border-radius: 0px 348px 0px 273px;
     background-repeat: no-repeat;
     width: 696px;

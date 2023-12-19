@@ -1,7 +1,8 @@
 .trusted {
     width: 1920px;
     margin: auto;
-    
+    position: relative;
+    padding: 55px 0;
     &__title {
         overflow: hidden;
 // * Чтобы спрятать часть линий,
@@ -10,8 +11,6 @@
 // * Выравнивание заголовка по центру,
 //     ** можно использовать left,
 //     right *
-        padding-top: 52px;
-        padding-bottom: 52px;
     }
     &__title h3 {
 /* Стили тега обертки для заголовков 
@@ -76,4 +75,72 @@
     line-height: 150%;
     margin: 0;
 }
+&__list {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        gap: 31px;
+        margin-top: 52px;
+}
+&__item {
+        width: 255px;
+        height: 114px;
+        border-radius: 8px;
+        border: 2px solid #E9EEF4;
+        background: #FFF;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+&__box {
+        width: 55px;
+        height: 55px;
+        padding: 0;
+        position: absolute;
+        z-index: 1;
+        border-radius: 50px;
+        border: 2px solid #E9EEF4;
+        top: -25px;
+        left: -25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+&__icon {
+        fill: rgba(13, 95, 249, 1);
+}
+}
+.box-text {
+        color: #222;
+        text-align: center;
+        font-family: Urbanist;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        letter-spacing: 1.8px;
+}
+.box-text2 {
+        color: #444;
+        text-align: center;
+        font-family: Urbanist;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: 1.8px;
+}
+.box1 {
+        background: rgba(245, 244, 255, 1);
+}
+.box2 {
+        background: rgba(254, 239, 241, 1);
+}
+.box3 {
+        background: rgba(255, 246, 232, 1);
+}
+.box4 {
+        background: rgba(229, 248, 248, 1);
 }

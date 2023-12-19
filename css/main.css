@@ -137,6 +137,10 @@ body {
   font-family: Urbanist;
   font-style: normal; }
 
+.container {
+  width: 1106px;
+  margin: auto; }
+
 .header {
   max-width: 1920px;
   display: flex;
@@ -263,13 +267,13 @@ body {
   position: relative;
   display: flex;
   justify-content: space-between;
-  background-image: url(/images/book.svg);
+  background-image: url("../images/book.svg");
   background-repeat: no-repeat;
   background-size: 101px 85px;
   background-position: top 554px left 217px; }
   .hero__bg-image {
     background-color: #002935;
-    background-image: url("/images/heroimg-min.jpg");
+    background-image: url("../images/heroimg-min.jpg");
     border-radius: 0px 348px 0px 273px;
     background-repeat: no-repeat;
     width: 696px;
@@ -430,7 +434,7 @@ body {
   margin: auto;
   padding: 72px 400px 72px 977px;
   position: relative;
-  background-image: url("/images/ball1.svg"), url("/images/angle1.svg"), url("/images/angle2.svg"), url("/images/ballsmall.svg"), url("/images/ball2.svg");
+  background-image: url("../images/ball1.svg"), url("../images/angle1.svg"), url("../images/angle2.svg"), url("../images/ballsmall.svg"), url("../images/ball2.svg");
   background-repeat: no-repeat;
   background-position: top 329px left 251px,  top 80px left 638px, top 498px left 600px, top 79px left 1657px, top 411px left 1753px; }
   .skill__img1 {
@@ -438,7 +442,7 @@ body {
     z-index: 2;
     top: 114px;
     left: 396px;
-    background-image: url("/images/onemen.jpg");
+    background-image: url("../images/onemen.jpg");
     background-repeat: no-repeat;
     width: 311px;
     height: 317px;
@@ -450,7 +454,7 @@ body {
     z-index: 1;
     top: 250px;
     left: 634px;
-    background-image: url("/images/company.jpg");
+    background-image: url("../images/company.jpg");
     background-repeat: no-repeat;
     width: 311px;
     height: 317px;
@@ -526,12 +530,12 @@ body {
 
 .trusted {
   width: 1920px;
-  margin: auto; }
+  margin: auto;
+  position: relative;
+  padding: 55px 0; }
   .trusted__title {
     overflow: hidden;
-    text-align: center;
-    padding-top: 52px;
-    padding-bottom: 52px; }
+    text-align: center; }
   .trusted__title h3 {
     /* Стили тега обертки для заголовков 
     ** в несколько строк */
@@ -583,5 +587,100 @@ body {
     font-weight: 700;
     line-height: 150%;
     margin: 0; }
+  .trusted__list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    gap: 31px;
+    margin-top: 52px; }
+  .trusted__item {
+    width: 255px;
+    height: 114px;
+    border-radius: 8px;
+    border: 2px solid #E9EEF4;
+    background: #FFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .trusted__box {
+    width: 55px;
+    height: 55px;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50px;
+    border: 2px solid #E9EEF4;
+    top: -25px;
+    left: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .trusted__icon {
+    fill: #0d5ff9; }
+
+.box-text {
+  color: #222;
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1.8px; }
+
+.box-text2 {
+  color: #444;
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 1.8px; }
+
+.box1 {
+  background: #f5f4ff; }
+
+.box2 {
+  background: #feeff1; }
+
+.box3 {
+  background: #fff6e8; }
+
+.box4 {
+  background: #e5f8f8; }
+
+.courses {
+  width: 1920px;
+  margin: auto;
+  padding: 56px 0; }
+  .courses__title {
+    color: #0D5FF9;
+    font-family: Urbanist;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; }
+  .courses__title2 {
+    color: #222;
+    font-family: Urbanist;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; }
+  .courses__box {
+    display: flex;
+    justify-content: space-between; }
+  .courses__list {
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+    margin: 0;
+    padding: 0; }
+  .courses__img {
+    object-fit: cover;
+    height: 100%; }
 
 /*# sourceMappingURL=main.css.map */
