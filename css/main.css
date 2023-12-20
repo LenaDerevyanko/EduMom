@@ -669,7 +669,8 @@ body {
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%; }
+    line-height: 150%;
+    margin-bottom: 71px; }
   .courses__box {
     display: flex;
     justify-content: space-between; }
@@ -679,8 +680,88 @@ body {
     gap: 29px;
     margin: 0;
     padding: 0; }
+  .courses__item {
+    padding: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 6px 26px 0px rgba(0, 0, 0, 0.04); }
   .courses__img {
     object-fit: cover;
-    height: 100%; }
+    height: 100%;
+    border-radius: 8px;
+    margin-bottom: 35px;
+    height: 251px; }
+  .courses__btn {
+    display: flex;
+    gap: 20px; }
+
+.solutions__button {
+  width: 48px;
+  height: 48px;
+  border: 1px;
+  border-radius: 50px;
+  padding: 10px;
+  background: #0F2B5A; }
+
+.solutions__button:hover {
+  background-color: #0d5ff9; }
+
+.btn-icon {
+  fill: white; }
+
+.raiting-icon {
+  fill: gold; }
+
+.star-box {
+  display: flex;
+  align-items: center;
+  margin-left: 18px;
+  gap: 6px; }
+
+.span-text {
+  color: #444;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  width: 30px; }
+
+.descr-list {
+  display: flex; }
+
+.image1 {
+  border-radius: 32px;
+  object-fit: cover;
+  height: 32px;
+  margin: 18px 13px 19px 21px; }
+
+.name {
+  color: #000;
+  font-family: Urbanist;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-top: 23px;
+  margin-bottom: 23px;
+  margin-left: 0; }
+
+.prof {
+  color: #0D5FF9;
+  text-align: right;
+  font-family: Urbanist;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin: 20px 0 23px 82px; }
+
+.student {
+  display: flex;
+  border-top: 1px solid whitesmoke; }
+
+.student-title {
+  margin-left: 18px; }
 
 /*# sourceMappingURL=main.css.map */
