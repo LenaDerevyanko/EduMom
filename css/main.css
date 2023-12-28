@@ -854,11 +854,11 @@ body {
     margin-bottom: 46px; }
   .categories__list {
     display: flex;
-    gap: 27px;
-    flex-wrap: wrap; }
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 0; }
   .categories__item {
-    max-width: 258px;
-    height: 254px;
+    width: 258px;
     border-radius: 8px;
     border: 2px solid #E9EEF4;
     background: #FFF;
